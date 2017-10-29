@@ -6,7 +6,7 @@ import './style.scss';
 class App extends Component {
     render() {
         return (
-            <h1>Hellow </ h1>
+            <h1>I can see you... </ h1>
         );
     }
 }
