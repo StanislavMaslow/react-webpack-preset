@@ -2,3 +2,28 @@
 h1 {
     color: olivedrab;
 }
+
+.nav {
+    float: left;
+      //position: absolute;
+      //top: 5%;
+      //right: 0px;
+      margin: 10px 15px 0 0;
+  
+      ul li {
+        list-style-type: none;
+        display: inline-block;
+        margin-right: 20px;
+  
+        &.last {
+          margin: 0;
+        }
+  
+        a {
+          font-size: 19px;
+          //text-decoration: none;
+          line-height: normal;
+          color: #000000;
+        }
+      }
+    }
