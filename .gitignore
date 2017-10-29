@@ -1,4 +1,11 @@
+
+# dependencies
+/node_modules
+
+# production
+/dist
+
+#ide
 .idea
 .vscode
-.history.
-.node_modules
+.history
