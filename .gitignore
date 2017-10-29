@@ -1,11 +1,11 @@
 
 # dependencies
-/node_modules
+
 
 # production
 /dist
 
-#ide
+#redactors settings 
 .idea
 .vscode
 .history
