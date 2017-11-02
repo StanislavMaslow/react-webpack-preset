@@ -1,11 +1,9 @@
 import React from 'react';
 
-const Home = (props) => {   
-    console.log('blya');
-     
+const Home = (props) => { 
     return (
         <div>
-            <h2>Homesss</h2>
+            <h2>I can see you from Home page</h2>
         </div>
     );
 };

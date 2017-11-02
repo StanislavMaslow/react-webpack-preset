@@ -1,10 +1,12 @@
 import React, { Component } from "react";
 import {
   BrowserRouter as Router,
-  Link
+  Link,
 } from "react-router-dom";
 
 import Routes from './constants/routes';
+import Homepage from "./components/homepage";
+import About from "./components/about";
 import "./style.scss";
 
 const App = () => {
@@ -15,8 +17,7 @@ const App = () => {
           <li><Link to="/">Home</Link></li>
           <li><Link to="/about">About</Link></li>
         </ul>
-        <hr/>
-        <Routes />
+        <Routes/>
       </div>
     </Router>
   );

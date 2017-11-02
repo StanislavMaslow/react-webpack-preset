@@ -1,12 +1,13 @@
+import React from 'react';
 
 const About = (props) => {
-  console.log('!!!!');
   
   return (
         <div>
-            <h2>About</h2>
+            <h2>I can see you from About page</h2>
         </div>
     );
   }
 
   export default About;
+  
